@@ -15,6 +15,10 @@ margin: 0;
 padding: 0;
 }
 
+img {
+display: block;
+}
+
 /*header*/
 
 .container {
@@ -216,6 +220,11 @@ background: #404bbf;
 
 /*assets*/
 
+.assets-section {
+padding-top: 120px;
+padding-bottom: 120px;
+}
+
 .visually-hidden {
 position: absolute;
 width: 1px;
@@ -235,9 +244,8 @@ gap: 24px;
 }
 
 .assets-list-text {
-width: calc(100% - 72) * 4;
-padding-top: 120px;
-padding-bottom: 120px;
+width: calc(100% - 72px) / 4;
+
 }
 
 
@@ -248,7 +256,7 @@ font-size: 20px;
 line-height: 120%;
 letter-spacing: 0.02em;
 color: #2e2f42;
-padding-bottom: 8px;
+margin-bottom: 8px;
 }
 
 .assets-text {
@@ -365,7 +373,7 @@ font-size: 20px;
 line-height: 120%;
 letter-spacing: 0.02em;
 color: #2e2f42;
-padding-bottom: 8px;
+margin-bottom: 8px;
 }
 
 .portfolio-text {
@@ -381,7 +389,9 @@ color: #434455;
 
 .footer-box {
 background-color: #2e2f42;
-
+padding-top: 100px;
+padding-bottom: 100px;
+text-align: left;
 }
 
 .footer-logo {
@@ -400,6 +410,7 @@ text-transform: uppercase;
 text-decoration: none;
 margin-bottom: 16px;
 display: inline-block;
+
 }
 
 .footer-text {
@@ -411,10 +422,4 @@ letter-spacing: 0.02em;
 color: #f4f4fd;
 max-width: 264px;
 
-}
-
-.footer-container {
-padding-left: 156px;
-padding-top: 100px;
-padding-bottom: 100px;
 }
